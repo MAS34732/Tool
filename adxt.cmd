@@ -221,7 +221,7 @@ if "%cmmdiopqscer%"=="1" (
     echo Invalid Commande : ^| %cmmdiopqscer% ^|
 )
 set cmmdiopqscer="None"
-goto CommandLoop
+goto cmdllllopdzikdqhjuzdhzqedrgqhuytsegdtvsydqsfdhqsfdqhtydefzyte
 
 :dfoiuytghjklcx
 color c
