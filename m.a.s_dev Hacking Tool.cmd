@@ -1,29 +1,29 @@
 :: ============================================================================================================
 ::                                        DROITS D'AUTEUR ET CONDITIONS D'UTILISATION
 ::
-:: Ce script, intitulé "Hacking Tool", a été créé par m.a.s_dev. Toute utilisation, distribution ou modification
-:: de ce script est soumise aux termes et conditions suivants. Le créateur m.a.s_dev se réserve tous les droits
+:: Ce script, intitule "Selixos", a ete cree par m.a.s_dev. Toute utilisation, distribution ou modification
+:: de ce script est soumise aux termes et conditions suivants. Le createur m.a.s_dev se reserve tous les droits
 :: sur ce script. Pour plus d'informations sur m.a.s_dev, veuillez consulter le Linktree :
 :: https://linktr.ee/m.a.s_dev
 ::
 :: 1. DROITS D'AUTEUR
-:: - Ce script est protégé par le droit d'auteur. Vous n'êtes pas autorisé à le modifier, le distribuer ou le
-::  réutiliser à des fins commerciales ou non commerciales sans l'autorisation expresse de m.a.s_dev.
-:: - Vous êtes autorisé à utiliser ce script tel quel pour vos besoins personnels, mais toute altération du code
+:: - Ce script est protege par le droit d'auteur. Vous n'êtes pas autorise à le modifier, le distribuer ou le
+::  reutiliser à des fins commerciales ou non commerciales sans l'autorisation expresse de m.a.s_dev.
+:: - Vous êtes autorise à utiliser ce script tel quel pour vos besoins personnels, mais toute alteration du code
 ::   peut rendre le script inutilisable ou provoquer des dysfonctionnements.
 ::
-:: 2. LIMITATION DE RESPONSABILITÉ
+:: 2. LIMITATION DE RESPONSABILITe
 :: - Ce script est fourni "tel quel", sans garantie d'aucune sorte. m.a.s_dev ne pourra être tenu responsable des
-::   dommages, pertes de données ou autres conséquences résultant de l'utilisation de ce script.
-::- Vous reconnaissez que l'utilisation de ce script, notamment à des fins de piratage, d'extraction de données ou
-::  toute autre activité illégale, est de votre entière responsabilité. Vous êtes seul responsable de toute action
+::   dommages, pertes de donnees ou autres consequences resultant de l'utilisation de ce script.
+::- Vous reconnaissez que l'utilisation de ce script, notamment à des fins de piratage, d'extraction de donnees ou
+::  toute autre activite illegale, est de votre entiere responsabilite. Vous êtes seul responsable de toute action
 ::   entreprise en utilisant ce script.
 :: 
 :: 3. INTERDICTION DE MODIFICATION
-:: - Il est strictement interdit de modifier ou d'altérer ce script. Les modifications peuvent rendre le script
-::   instable ou entraîner des erreurs de fonctionnement. Toute altération du code est aux risques et périls de
+:: - Il est strictement interdit de modifier ou d'alterer ce script. Les modifications peuvent rendre le script
+::   instable ou entraîner des erreurs de fonctionnement. Toute alteration du code est aux risques et perils de
 ::   l'utilisateur.
-:: - Le créateur n'est pas tenu de fournir un support ou une assistance pour les versions modifiées du script.
+:: - Le createur n'est pas tenu de fournir un support ou une assistance pour les versions modifiees du script.
 ::
 :: En utilisant ce script, vous acceptez ces conditions.
 :: ============================================================================================================
